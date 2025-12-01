@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Delivery Dashboard", layout="wide") #st.set_page_config sirve para congifurar los ajustes del la página, por ej: page_title (cambia el título que se ve en la pestaña del navegador)
 #'layout="wide" sirve para usar todo el espacio en pantalla
 
-df = pd.read_csv(""C:\Users\danie\Downloads\proyect\Food_Delivery_Route_Efficiency_Dataset (1).csv"")
+df = pd.read_csv("C:\Users\danie\Downloads\proyect\Food_Delivery_Route_Efficiency_Dataset (1).csv")
 
 st.title("Dashboard de Operaciones de Delivery") #st.title sirve para crear el título de la página. El título se verá en cada tab de la página
 st.subheader("Análisis de tiempos, rutas y vehículos.") #st.subheader es para crear un subtítulo de la página
